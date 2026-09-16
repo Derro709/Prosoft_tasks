@@ -2,9 +2,10 @@
 (Т.к. код писал сразу в редакторе литкода, листинг прикладываю скриншотами)
 
 
-## Задача 1. Add Two Numbers
+# Задача 1. Add Two Numbers
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
 <img width="500" height="383" alt="image" src="https://github.com/user-attachments/assets/838340b8-ab5d-455e-8806-ea2f8a40923a" />
 
 
@@ -12,7 +13,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 
 
-# Решение:
+## Решение:
 Если приглядеться к картинке в примере к задаче, можно заметить, что цифры в итоговом числе равны сумме цифр на соответствующих разрядах первых двух чисел.
 Это значит, что мы можем проходиться по двум имеющимся односвязным спискам, на ходу складывая цифры и записывая их на соответствующие места в результирующем списке
 (не забывая про "перенос" - если сумма в моменте окажется больше 9, то в следующий разряд отправится излишек).

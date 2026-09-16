@@ -1,4 +1,4 @@
-<img width="524" height="767" alt="image" src="https://github.com/user-attachments/assets/78d8d8ea-8b53-4927-8a02-8f125f7e7870" /># Prosoft_tasks
+# Prosoft_tasks
 (Т.к. код писал сразу в редакторе литкода, листинг прикладываю скриншотами)
 
 
